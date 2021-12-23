@@ -1,16 +1,1339 @@
 {
-  "posts":[
+  "menus": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "name": "gurman",
+      "id": 1
+    },
+    {
+      "name": "torop",
+      "id": 2
+    },
+    {
+      "name": "autumn",
+      "id": 3
+    },
+    {
+      "name": "tasty",
+      "id": 4
     }
   ],
-  "comments" : [
+  "gurman": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "bgColor": "blue",
+      "gurman": true,
+      "dayName": "Понедельник",
+      "weak": "1",
+      "recept": "",
+      "name": "gurman",
+      "butter": {
+        "count": "200",
+        "name": "Масло сливочное",
+        "sizes": "грамм"
+      },
+      "lavash": {
+        "count": "300",
+        "name": "Лаваш",
+        "sizes": "грамм"
+      },
+      "id": 1
+    },
+    {
+      "gurman": true,
+      "dayName": "Среда",
+      "weak": "1",
+      "recept": "Вот так вот",
+      "name": "gurman",
+      "bulgur": {
+        "count": "34",
+        "name": "Булгур",
+        "sizes": "грамм"
+      },
+      "lavash": {
+        "count": "5354",
+        "name": "Лаваш",
+        "sizes": "грамм"
+      },
+      "beef": {
+        "count": "234",
+        "name": "Говядина постная",
+        "sizes": "грамм"
+      },
+      "olives": {
+        "count": "12",
+        "name": "Оливки",
+        "sizes": "грамм"
+      },
+      "cucumber": {
+        "count": "234",
+        "name": "Огурцы",
+        "sizes": "шт"
+      },
+      "id": 3
+    },
+    {
+      "gurman": true,
+      "dayName": "Вторник",
+      "weak": "1",
+      "recept": "",
+      "name": "gurman",
+      "potato": {
+        "count": "23454",
+        "name": "Картофель",
+        "sizes": "грамм"
+      },
+      "butter": {
+        "count": "4354",
+        "name": "Масло сливочное",
+        "sizes": "грамм"
+      },
+      "id": 2
+    }
+  ],
+  "torop": [
+    {
+      "torop": true,
+      "dayName": "Понедельник",
+      "weak": "1",
+      "recept": "Всё перемешать и захавать",
+      "name": "torop",
+      "orange": {
+        "count": "1",
+        "name": "Апельсин",
+        "sizes": "шт"
+      },
+      "butter": {
+        "count": "10",
+        "name": "Масло сливочное",
+        "sizes": "грамм"
+      },
+      "bulgur": {
+        "count": "1000",
+        "name": "Булгур",
+        "sizes": "грамм"
+      },
+      "olives": {
+        "count": "1000",
+        "name": "Оливки",
+        "sizes": "грамм"
+      },
+      "fishKeta": {
+        "count": "20",
+        "name": "Филе кеты",
+        "sizes": "грамм"
+      },
+      "cheese": {
+        "count": "200",
+        "name": "Сыр российский",
+        "sizes": "грамм"
+      },
+      "id": 1
+    }
+  ],
+  "autumn": [
+    {
+      "autumn": true,
+      "dayName": "Понедельник",
+      "weak": "1",
+      "recept": "",
+      "name": "autumn",
+      "orange": {
+        "count": "100",
+        "name": "Апельсин",
+        "sizes": "грамм"
+      },
+      "butter": {
+        "count": "500",
+        "name": "Масло сливочное",
+        "sizes": "грамм"
+      },
+      "mozarella": {
+        "count": "50",
+        "name": "Моцарелла",
+        "sizes": "грамм"
+      },
+      "limon": {
+        "count": "1",
+        "name": "Лимон",
+        "sizes": "шт"
+      },
+      "mindal": {
+        "count": "500",
+        "name": "Миндаль",
+        "sizes": "шт"
+      },
+      "milk": {
+        "count": "500",
+        "name": "Молоко 1,5%",
+        "sizes": "грамм"
+      },
+      "carrot": {
+        "count": "500",
+        "name": "Морковь",
+        "sizes": "грамм"
+      },
+      "tomato": {
+        "count": "5",
+        "name": "Помидоры",
+        "sizes": "шт"
+      },
+      "lavash": {
+        "count": "500",
+        "name": "Лаваш",
+        "sizes": "грамм"
+      },
+      "id": 1
+    }
+  ],
+  "tasty": [
+    {
+      "tasty": true,
+      "dayName": "Понедельник",
+      "weak": "1",
+      "recept": "",
+      "name": "tasty",
+      "cottageСheese": {
+        "count": "60",
+        "name": "Творог 5%",
+        "sizes": "грамм"
+      },
+      "champignon": {
+        "count": "200",
+        "name": "Шампиньоны",
+        "sizes": "грамм"
+      },
+      "milk": {
+        "count": "100",
+        "name": "Молоко 1,5%",
+        "sizes": "грамм"
+      },
+      "carrot": {
+        "count": "500",
+        "name": "Морковь",
+        "sizes": "грамм"
+      },
+      "honey": {
+        "count": "200",
+        "name": "Мед",
+        "sizes": "грамм"
+      },
+      "sorrel": {
+        "count": "100",
+        "name": "Щавель",
+        "sizes": "грамм"
+      },
+      "id": 1
+    }
+  ],
+  "products_gurman": [
+    {
+      "eng": "avacado",
+      "rus": "Авакадо"
+    },
+    {
+      "eng": "orange",
+      "rus": "Апельсин"
+    },
+    {
+      "eng": "banan",
+      "rus": "Бананы"
+    },
+    {
+      "eng": "balsamic",
+      "rus": "Бальзамический уксус"
+    },
+    {
+      "eng": "brokkoli",
+      "rus": "Брокколи"
+    },
+    {
+      "eng": "bulgur",
+      "rus": "Булгур"
+    },
+    {
+      "eng": "vanilin",
+      "rus": "Ванилин"
+    },
+    {
+      "eng": "beefLiver",
+      "rus": "Говяжья печень"
+    },
+    {
+      "eng": "beef",
+      "rus": "Говядина постная"
+    },
+    {
+      "eng": "grapefruit",
+      "rus": "Грейпфрут"
+    },
+    {
+      "eng": "buckwheat",
+      "rus": "Гречка"
+    },
+    {
+      "eng": "mustard",
+      "rus": "Горчица"
+    },
+    {
+      "eng": "pear",
+      "rus": "Груши"
+    },
+    {
+      "eng": "strawberry",
+      "rus": "Замороженная клубника"
+    },
+    {
+      "eng": "salat",
+      "rus": "Зеленый салат"
+    },
+    {
+      "eng": "yogurt",
+      "rus": "Йогурт 4%"
+    },
+    {
+      "eng": "squid",
+      "rus": "Кальмар"
+    },
+    {
+      "eng": "zucchini",
+      "rus": "Кабачок"
+    },
+    {
+      "eng": "cacao",
+      "rus": "Какао-порошок"
+    },
+    {
+      "eng": "cambala",
+      "rus": "Камбала"
+    },
+    {
+      "eng": "potato",
+      "rus": "Картофель"
+    },
+    {
+      "eng": "kefir",
+      "rus": "Кефир"
+    },
+    {
+      "eng": "shrimps",
+      "rus": "Креветки"
+    },
+    {
+      "eng": "chickenHeart",
+      "rus": "Куринные сердечки"
+    },
+    {
+      "eng": "lavash",
+      "rus": "Лаваш"
+    },
+    {
+      "eng": "limon",
+      "rus": "Лимон"
+    },
+    {
+      "eng": "onion",
+      "rus": "Лук репчатый"
+    },
+    {
+      "eng": "butter",
+      "rus": "Масло сливочное"
+    },
+    {
+      "eng": "honey",
+      "rus": "Мед"
+    },
+    {
+      "eng": "mindal",
+      "rus": "Миндаль"
+    },
+    {
+      "eng": "milk",
+      "rus": "Молоко 1,5%"
+    },
+    {
+      "eng": "carrot",
+      "rus": "Морковь"
+    },
+    {
+      "eng": "mozarella",
+      "rus": "Моцарелла"
+    },
+    {
+      "eng": "easeCheese",
+      "rus": "Мягкий творожок 5%"
+    },
+    {
+      "eng": "oatFlakes",
+      "rus": "Овсяные хлопья"
+    },
+    {
+      "eng": "cucumber",
+      "rus": "Огурцы"
+    },
+    {
+      "eng": "olives",
+      "rus": "Оливки"
+    },
+    {
+      "eng": "olive",
+      "rus": "Оливковое масло"
+    },
+    {
+      "eng": "сhineseСabbage",
+      "rus": "Пекинская капуста"
+    },
+    {
+      "eng": "tomato",
+      "rus": "Помидоры"
+    },
+    {
+      "eng": "bakingPowder",
+      "rus": "Разрыхлитель"
+    },
+    {
+      "eng": "redis",
+      "rus": "Редис"
+    },
+    {
+      "eng": "rise",
+      "rus": "Рис"
+    },
+    {
+      "eng": "riseCow",
+      "rus": "Рисовая мука"
+    },
+    {
+      "eng": "sweetener",
+      "rus": "Сахарозаменитель"
+    },
+    {
+      "eng": "freshGreen",
+      "rus": "Свежая зелень"
+    },
+    {
+      "eng": "semga",
+      "rus": "Семга"
+    },
+    {
+      "eng": "sweetPepper",
+      "rus": "Сладкий перец"
+    },
+    {
+      "eng": "cream",
+      "rus": "Сливки 10%"
+    },
+    {
+      "eng": "sourCream",
+      "rus": "Сметана "
+    },
+    {
+      "eng": "sous",
+      "rus": "Соевый соус"
+    },
+    {
+      "eng": "spices",
+      "rus": "Специи"
+    },
+    {
+      "eng": "sudak",
+      "rus": "Судак"
+    },
+    {
+      "eng": "cheese",
+      "rus": "Сыр российский"
+    },
+    {
+      "eng": "cottageСheese",
+      "rus": "Творог 5%"
+    },
+    {
+      "eng": "fetax",
+      "rus": "Фетакса"
+    },
+    {
+      "eng": "chickenLeg",
+      "rus": "Филе бедра курицы"
+    },
+    {
+      "eng": "indeika",
+      "rus": "Филе индейки"
+    },
+    {
+      "eng": "fishKeta",
+      "rus": "Филе кеты"
+    },
+    {
+      "eng": "chicken",
+      "rus": "Филе курицы"
+    },
+    {
+      "eng": "fishTreska",
+      "rus": "Филе трески"
+    },
+    {
+      "eng": "breadBuckwheat",
+      "rus": "Хлебцы гречневые"
+    },
+    {
+      "eng": "makarone",
+      "rus": "Цельнозерновые макароны"
+    },
+    {
+      "eng": "garlic",
+      "rus": "Чеснок"
+    },
+    {
+      "eng": "champignon",
+      "rus": "Шампиньоны"
+    },
+    {
+      "eng": "spinach",
+      "rus": "Шпинат"
+    },
+    {
+      "eng": "sorrel",
+      "rus": "Щавель"
+    },
+    {
+      "eng": "apple",
+      "rus": "Яблоки"
+    },
+    {
+      "eng": "egg",
+      "rus": "Яйца"
+    }
+  ],
+  "products_torop": [
+    {
+      "eng": "avacado",
+      "rus": "Аватаркадо"
+    },
+    {
+      "eng": "orange",
+      "rus": "Апельсин"
+    },
+    {
+      "eng": "banan",
+      "rus": "Бананы"
+    },
+    {
+      "eng": "balsamic",
+      "rus": "Бальзамический уксус"
+    },
+    {
+      "eng": "brokkoli",
+      "rus": "Брокколи"
+    },
+    {
+      "eng": "bulgur",
+      "rus": "Булгур"
+    },
+    {
+      "eng": "vanilin",
+      "rus": "Ванилин"
+    },
+    {
+      "eng": "beefLiver",
+      "rus": "Говяжья печень"
+    },
+    {
+      "eng": "beef",
+      "rus": "Говядина постная"
+    },
+    {
+      "eng": "grapefruit",
+      "rus": "Грейпфрут"
+    },
+    {
+      "eng": "buckwheat",
+      "rus": "Гречка"
+    },
+    {
+      "eng": "mustard",
+      "rus": "Горчица"
+    },
+    {
+      "eng": "pear",
+      "rus": "Груши"
+    },
+    {
+      "eng": "strawberry",
+      "rus": "Замороженная клубника"
+    },
+    {
+      "eng": "salat",
+      "rus": "Зеленый салат"
+    },
+    {
+      "eng": "yogurt",
+      "rus": "Йогурт 4%"
+    },
+    {
+      "eng": "squid",
+      "rus": "Кальмар"
+    },
+    {
+      "eng": "zucchini",
+      "rus": "Кабачок"
+    },
+    {
+      "eng": "cacao",
+      "rus": "Какао-порошок"
+    },
+    {
+      "eng": "cambala",
+      "rus": "Камбала"
+    },
+    {
+      "eng": "potato",
+      "rus": "Картофель"
+    },
+    {
+      "eng": "kefir",
+      "rus": "Кефир"
+    },
+    {
+      "eng": "shrimps",
+      "rus": "Креветки"
+    },
+    {
+      "eng": "chickenHeart",
+      "rus": "Куринные сердечки"
+    },
+    {
+      "eng": "lavash",
+      "rus": "Лаваш"
+    },
+    {
+      "eng": "limon",
+      "rus": "Лимон"
+    },
+    {
+      "eng": "onion",
+      "rus": "Лук репчатый"
+    },
+    {
+      "eng": "butter",
+      "rus": "Масло сливочное"
+    },
+    {
+      "eng": "honey",
+      "rus": "Мед"
+    },
+    {
+      "eng": "mindal",
+      "rus": "Миндаль"
+    },
+    {
+      "eng": "milk",
+      "rus": "Молоко 1,5%"
+    },
+    {
+      "eng": "carrot",
+      "rus": "Морковь"
+    },
+    {
+      "eng": "mozarella",
+      "rus": "Моцарелла"
+    },
+    {
+      "eng": "easeCheese",
+      "rus": "Мягкий творожок 5%"
+    },
+    {
+      "eng": "oatFlakes",
+      "rus": "Овсяные хлопья"
+    },
+    {
+      "eng": "cucumber",
+      "rus": "Огурцы"
+    },
+    {
+      "eng": "olives",
+      "rus": "Оливки"
+    },
+    {
+      "eng": "olive",
+      "rus": "Оливковое масло"
+    },
+    {
+      "eng": "сhineseСabbage",
+      "rus": "Пекинская капуста"
+    },
+    {
+      "eng": "tomato",
+      "rus": "Помидоры"
+    },
+    {
+      "eng": "bakingPowder",
+      "rus": "Разрыхлитель"
+    },
+    {
+      "eng": "redis",
+      "rus": "Редис"
+    },
+    {
+      "eng": "rise",
+      "rus": "Рис"
+    },
+    {
+      "eng": "riseCow",
+      "rus": "Рисовая мука"
+    },
+    {
+      "eng": "sweetener",
+      "rus": "Сахарозаменитель"
+    },
+    {
+      "eng": "freshGreen",
+      "rus": "Свежая зелень"
+    },
+    {
+      "eng": "semga",
+      "rus": "Семга"
+    },
+    {
+      "eng": "sweetPepper",
+      "rus": "Сладкий перец"
+    },
+    {
+      "eng": "cream",
+      "rus": "Сливки 10%"
+    },
+    {
+      "eng": "sourCream",
+      "rus": "Сметана "
+    },
+    {
+      "eng": "sous",
+      "rus": "Соевый соус"
+    },
+    {
+      "eng": "spices",
+      "rus": "Специи"
+    },
+    {
+      "eng": "sudak",
+      "rus": "Судак"
+    },
+    {
+      "eng": "cheese",
+      "rus": "Сыр российский"
+    },
+    {
+      "eng": "cottageСheese",
+      "rus": "Творог 5%"
+    },
+    {
+      "eng": "fetax",
+      "rus": "Фетакса"
+    },
+    {
+      "eng": "chickenLeg",
+      "rus": "Филе бедра курицы"
+    },
+    {
+      "eng": "indeika",
+      "rus": "Филе индейки"
+    },
+    {
+      "eng": "fishKeta",
+      "rus": "Филе кеты"
+    },
+    {
+      "eng": "chicken",
+      "rus": "Филе курицы"
+    },
+    {
+      "eng": "fishTreska",
+      "rus": "Филе трески"
+    },
+    {
+      "eng": "breadBuckwheat",
+      "rus": "Хлебцы гречневые"
+    },
+    {
+      "eng": "makarone",
+      "rus": "Цельнозерновые макароны"
+    },
+    {
+      "eng": "garlic",
+      "rus": "Чеснок"
+    },
+    {
+      "eng": "champignon",
+      "rus": "Шампиньоны"
+    },
+    {
+      "eng": "spinach",
+      "rus": "Шпинат"
+    },
+    {
+      "eng": "sorrel",
+      "rus": "Щавель"
+    },
+    {
+      "eng": "apple",
+      "rus": "Яблоки"
+    },
+    {
+      "eng": "egg",
+      "rus": "Яйца"
+    }
+  ],
+  "products_autumn": [
+    {
+      "eng": "avacado",
+      "rus": "Авагадро"
+    },
+    {
+      "eng": "orange",
+      "rus": "Апельсин"
+    },
+    {
+      "eng": "banan",
+      "rus": "Бананы"
+    },
+    {
+      "eng": "balsamic",
+      "rus": "Бальзамический уксус"
+    },
+    {
+      "eng": "brokkoli",
+      "rus": "Брокколи"
+    },
+    {
+      "eng": "bulgur",
+      "rus": "Булгур"
+    },
+    {
+      "eng": "vanilin",
+      "rus": "Ванилин"
+    },
+    {
+      "eng": "beefLiver",
+      "rus": "Говяжья печень"
+    },
+    {
+      "eng": "beef",
+      "rus": "Говядина постная"
+    },
+    {
+      "eng": "grapefruit",
+      "rus": "Грейпфрут"
+    },
+    {
+      "eng": "buckwheat",
+      "rus": "Гречка"
+    },
+    {
+      "eng": "mustard",
+      "rus": "Горчица"
+    },
+    {
+      "eng": "pear",
+      "rus": "Груши"
+    },
+    {
+      "eng": "strawberry",
+      "rus": "Замороженная клубника"
+    },
+    {
+      "eng": "salat",
+      "rus": "Зеленый салат"
+    },
+    {
+      "eng": "yogurt",
+      "rus": "Йогурт 4%"
+    },
+    {
+      "eng": "squid",
+      "rus": "Кальмар"
+    },
+    {
+      "eng": "zucchini",
+      "rus": "Кабачок"
+    },
+    {
+      "eng": "cacao",
+      "rus": "Какао-порошок"
+    },
+    {
+      "eng": "cambala",
+      "rus": "Камбала"
+    },
+    {
+      "eng": "potato",
+      "rus": "Картофель"
+    },
+    {
+      "eng": "kefir",
+      "rus": "Кефир"
+    },
+    {
+      "eng": "shrimps",
+      "rus": "Креветки"
+    },
+    {
+      "eng": "chickenHeart",
+      "rus": "Куринные сердечки"
+    },
+    {
+      "eng": "lavash",
+      "rus": "Лаваш"
+    },
+    {
+      "eng": "limon",
+      "rus": "Лимон"
+    },
+    {
+      "eng": "onion",
+      "rus": "Лук репчатый"
+    },
+    {
+      "eng": "butter",
+      "rus": "Масло сливочное"
+    },
+    {
+      "eng": "honey",
+      "rus": "Мед"
+    },
+    {
+      "eng": "mindal",
+      "rus": "Миндаль"
+    },
+    {
+      "eng": "milk",
+      "rus": "Молоко 1,5%"
+    },
+    {
+      "eng": "carrot",
+      "rus": "Морковь"
+    },
+    {
+      "eng": "mozarella",
+      "rus": "Моцарелла"
+    },
+    {
+      "eng": "easeCheese",
+      "rus": "Мягкий творожок 5%"
+    },
+    {
+      "eng": "oatFlakes",
+      "rus": "Овсяные хлопья"
+    },
+    {
+      "eng": "cucumber",
+      "rus": "Огурцы"
+    },
+    {
+      "eng": "olives",
+      "rus": "Оливки"
+    },
+    {
+      "eng": "olive",
+      "rus": "Оливковое масло"
+    },
+    {
+      "eng": "сhineseСabbage",
+      "rus": "Пекинская капуста"
+    },
+    {
+      "eng": "tomato",
+      "rus": "Помидоры"
+    },
+    {
+      "eng": "bakingPowder",
+      "rus": "Разрыхлитель"
+    },
+    {
+      "eng": "redis",
+      "rus": "Редис"
+    },
+    {
+      "eng": "rise",
+      "rus": "Рис"
+    },
+    {
+      "eng": "riseCow",
+      "rus": "Рисовая мука"
+    },
+    {
+      "eng": "sweetener",
+      "rus": "Сахарозаменитель"
+    },
+    {
+      "eng": "freshGreen",
+      "rus": "Свежая зелень"
+    },
+    {
+      "eng": "semga",
+      "rus": "Семга"
+    },
+    {
+      "eng": "sweetPepper",
+      "rus": "Сладкий перец"
+    },
+    {
+      "eng": "cream",
+      "rus": "Сливки 10%"
+    },
+    {
+      "eng": "sourCream",
+      "rus": "Сметана "
+    },
+    {
+      "eng": "sous",
+      "rus": "Соевый соус"
+    },
+    {
+      "eng": "spices",
+      "rus": "Специи"
+    },
+    {
+      "eng": "sudak",
+      "rus": "Судак"
+    },
+    {
+      "eng": "cheese",
+      "rus": "Сыр российский"
+    },
+    {
+      "eng": "cottageСheese",
+      "rus": "Творог 5%"
+    },
+    {
+      "eng": "fetax",
+      "rus": "Фетакса"
+    },
+    {
+      "eng": "chickenLeg",
+      "rus": "Филе бедра курицы"
+    },
+    {
+      "eng": "indeika",
+      "rus": "Филе индейки"
+    },
+    {
+      "eng": "fishKeta",
+      "rus": "Филе кеты"
+    },
+    {
+      "eng": "chicken",
+      "rus": "Филе курицы"
+    },
+    {
+      "eng": "fishTreska",
+      "rus": "Филе трески"
+    },
+    {
+      "eng": "breadBuckwheat",
+      "rus": "Хлебцы гречневые"
+    },
+    {
+      "eng": "makarone",
+      "rus": "Цельнозерновые макароны"
+    },
+    {
+      "eng": "garlic",
+      "rus": "Чеснок"
+    },
+    {
+      "eng": "champignon",
+      "rus": "Шампиньоны"
+    },
+    {
+      "eng": "spinach",
+      "rus": "Шпинат"
+    },
+    {
+      "eng": "sorrel",
+      "rus": "Щавель"
+    },
+    {
+      "eng": "apple",
+      "rus": "Яблоки"
+    },
+    {
+      "eng": "egg",
+      "rus": "Яйца"
+    }
+  ],
+  "products_tasty": [
+    {
+      "eng": "avacado",
+      "rus": "Авадакедавра"
+    },
+    {
+      "eng": "orange",
+      "rus": "Апельсин"
+    },
+    {
+      "eng": "banan",
+      "rus": "Бананы"
+    },
+    {
+      "eng": "balsamic",
+      "rus": "Бальзамический уксус"
+    },
+    {
+      "eng": "brokkoli",
+      "rus": "Брокколи"
+    },
+    {
+      "eng": "bulgur",
+      "rus": "Булгур"
+    },
+    {
+      "eng": "vanilin",
+      "rus": "Ванилин"
+    },
+    {
+      "eng": "beefLiver",
+      "rus": "Говяжья печень"
+    },
+    {
+      "eng": "beef",
+      "rus": "Говядина постная"
+    },
+    {
+      "eng": "grapefruit",
+      "rus": "Грейпфрут"
+    },
+    {
+      "eng": "buckwheat",
+      "rus": "Гречка"
+    },
+    {
+      "eng": "mustard",
+      "rus": "Горчица"
+    },
+    {
+      "eng": "pear",
+      "rus": "Груши"
+    },
+    {
+      "eng": "strawberry",
+      "rus": "Замороженная клубника"
+    },
+    {
+      "eng": "salat",
+      "rus": "Зеленый салат"
+    },
+    {
+      "eng": "yogurt",
+      "rus": "Йогурт 4%"
+    },
+    {
+      "eng": "squid",
+      "rus": "Кальмар"
+    },
+    {
+      "eng": "zucchini",
+      "rus": "Кабачок"
+    },
+    {
+      "eng": "cacao",
+      "rus": "Какао-порошок"
+    },
+    {
+      "eng": "cambala",
+      "rus": "Камбала"
+    },
+    {
+      "eng": "potato",
+      "rus": "Картофель"
+    },
+    {
+      "eng": "kefir",
+      "rus": "Кефир"
+    },
+    {
+      "eng": "shrimps",
+      "rus": "Креветки"
+    },
+    {
+      "eng": "chickenHeart",
+      "rus": "Куринные сердечки"
+    },
+    {
+      "eng": "lavash",
+      "rus": "Лаваш"
+    },
+    {
+      "eng": "limon",
+      "rus": "Лимон"
+    },
+    {
+      "eng": "onion",
+      "rus": "Лук репчатый"
+    },
+    {
+      "eng": "butter",
+      "rus": "Масло сливочное"
+    },
+    {
+      "eng": "honey",
+      "rus": "Мед"
+    },
+    {
+      "eng": "mindal",
+      "rus": "Миндаль"
+    },
+    {
+      "eng": "milk",
+      "rus": "Молоко 1,5%"
+    },
+    {
+      "eng": "carrot",
+      "rus": "Морковь"
+    },
+    {
+      "eng": "mozarella",
+      "rus": "Моцарелла"
+    },
+    {
+      "eng": "easeCheese",
+      "rus": "Мягкий творожок 5%"
+    },
+    {
+      "eng": "oatFlakes",
+      "rus": "Овсяные хлопья"
+    },
+    {
+      "eng": "cucumber",
+      "rus": "Огурцы"
+    },
+    {
+      "eng": "olives",
+      "rus": "Оливки"
+    },
+    {
+      "eng": "olive",
+      "rus": "Оливковое масло"
+    },
+    {
+      "eng": "сhineseСabbage",
+      "rus": "Пекинская капуста"
+    },
+    {
+      "eng": "tomato",
+      "rus": "Помидоры"
+    },
+    {
+      "eng": "bakingPowder",
+      "rus": "Разрыхлитель"
+    },
+    {
+      "eng": "redis",
+      "rus": "Редис"
+    },
+    {
+      "eng": "rise",
+      "rus": "Рис"
+    },
+    {
+      "eng": "riseCow",
+      "rus": "Рисовая мука"
+    },
+    {
+      "eng": "sweetener",
+      "rus": "Сахарозаменитель"
+    },
+    {
+      "eng": "freshGreen",
+      "rus": "Свежая зелень"
+    },
+    {
+      "eng": "semga",
+      "rus": "Семга"
+    },
+    {
+      "eng": "sweetPepper",
+      "rus": "Сладкий перец"
+    },
+    {
+      "eng": "cream",
+      "rus": "Сливки 10%"
+    },
+    {
+      "eng": "sourCream",
+      "rus": "Сметана "
+    },
+    {
+      "eng": "sous",
+      "rus": "Соевый соус"
+    },
+    {
+      "eng": "spices",
+      "rus": "Специи"
+    },
+    {
+      "eng": "sudak",
+      "rus": "Судак"
+    },
+    {
+      "eng": "cheese",
+      "rus": "Сыр российский"
+    },
+    {
+      "eng": "cottageСheese",
+      "rus": "Творог 5%"
+    },
+    {
+      "eng": "fetax",
+      "rus": "Фетакса"
+    },
+    {
+      "eng": "chickenLeg",
+      "rus": "Филе бедра курицы"
+    },
+    {
+      "eng": "indeika",
+      "rus": "Филе индейки"
+    },
+    {
+      "eng": "fishKeta",
+      "rus": "Филе кеты"
+    },
+    {
+      "eng": "chicken",
+      "rus": "Филе курицы"
+    },
+    {
+      "eng": "fishTreska",
+      "rus": "Филе трески"
+    },
+    {
+      "eng": "breadBuckwheat",
+      "rus": "Хлебцы гречневые"
+    },
+    {
+      "eng": "makarone",
+      "rus": "Цельнозерновые макароны"
+    },
+    {
+      "eng": "garlic",
+      "rus": "Чеснок"
+    },
+    {
+      "eng": "champignon",
+      "rus": "Шампиньоны"
+    },
+    {
+      "eng": "spinach",
+      "rus": "Шпинат"
+    },
+    {
+      "eng": "sorrel",
+      "rus": "Щавель"
+    },
+    {
+      "eng": "apple",
+      "rus": "Яблоки"
+    },
+    {
+      "eng": "egg",
+      "rus": "Яйца"
     }
   ]
 }
